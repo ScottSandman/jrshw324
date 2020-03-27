@@ -32,10 +32,10 @@ const add10Result = R.map(add10, numbers);
 // const li = (w) => h('li', w)
 // console.log(h('ul', __ ))
 
-// function li(w) {
-//   return h("li", w);
-// }
-// console.log(h("ul", R.map(li, buzzwords)).outerHTML);
+function li(w) {
+  return h("li", w);
+}
+console.log(h("ul", R.map(li, buzzwords)).outerHTML);
 
 // 4. Use the map function to convert a list of colors to their rgb code.
 // const convert = require('color-convert')
